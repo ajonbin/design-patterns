@@ -1,4 +1,4 @@
-package me.ajonbin.designpattern;
+package me.ajonbin.designpattern.adapter;
 
 import java.util.ArrayList;
 import java.util.List;

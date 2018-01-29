@@ -1,4 +1,4 @@
-package me.ajonbin.designpattern;
+package me.ajonbin.designpattern.adapter;
 
 public class CurrentVersionUser implements IUser{
 	protected String id;

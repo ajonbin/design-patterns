@@ -14,10 +14,10 @@ public class AdapterClient {
 			CurrentVersionUser currentVersionUser = new CurrentVersionUser("121","John","JohnL","john@designpatter.com");
 			users.add(currentVersionUser);
 
-			LegacyVersionUser legacyVersionUser = new LegacyVersionUser("Teddy@dp.com","Teddy","TTeddy");
+			AdapteeLegacyVersionUser legacyVersionUser = new AdapteeLegacyVersionUser("Teddy@dp.com","Teddy","TTeddy");
 			users.add(new AdapterForLegacyUser(legacyVersionUser));
 
-			WeChatUser weChatUser = new WeChatUser("122","Martin","Martin","martin@designpatter.com");
+			AdapteeWeChatUser weChatUser = new AdapteeWeChatUser("122","Martin","Martin","martin@designpatter.com");
 			users.add(new AdapterForWeChatUser(weChatUser));
 
 			for(IUser user : users){

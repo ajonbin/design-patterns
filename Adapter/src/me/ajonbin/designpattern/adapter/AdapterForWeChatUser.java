@@ -1,9 +1,9 @@
 package me.ajonbin.designpattern.adapter;
 
 public class AdapterForWeChatUser implements IUser{
-	protected WeChatUser user;
+	protected AdapteeWeChatUser user;
 
-	public AdapterForWeChatUser(WeChatUser user) {
+	public AdapterForWeChatUser(AdapteeWeChatUser user) {
 		this.user = user;
 	}
 

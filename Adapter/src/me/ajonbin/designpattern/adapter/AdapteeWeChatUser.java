@@ -1,12 +1,12 @@
 package me.ajonbin.designpattern.adapter;
 
-public class WeChatUser {
+public class AdapteeWeChatUser {
 	protected String userId;
 	protected String userName;
 	protected String userNickName;
 	protected String userEmail;
 
-	public WeChatUser(String userId, String userName, String userNickName, String userEmail) {
+	public AdapteeWeChatUser(String userId, String userName, String userNickName, String userEmail) {
 		this.userId = userId;
 		this.userName = userName;
 		this.userNickName = userNickName;

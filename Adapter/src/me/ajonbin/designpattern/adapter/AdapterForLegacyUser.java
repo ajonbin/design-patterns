@@ -1,10 +1,10 @@
 package me.ajonbin.designpattern.adapter;
 
 public class AdapterForLegacyUser implements IUser{
-	protected LegacyVersionUser user = null;
+	protected AdapteeLegacyVersionUser user = null;
 
 
-	public AdapterForLegacyUser(LegacyVersionUser user) {
+	public AdapterForLegacyUser(AdapteeLegacyVersionUser user) {
 		this.user = user;
 	}
 

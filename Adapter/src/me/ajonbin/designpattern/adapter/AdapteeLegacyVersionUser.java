@@ -1,11 +1,11 @@
 package me.ajonbin.designpattern.adapter;
 
-public class LegacyVersionUser {
+public class AdapteeLegacyVersionUser {
 	protected String mail;
 	protected String name;
 	protected String nickname;
 
-	public LegacyVersionUser(String mail, String name, String nickname) {
+	public AdapteeLegacyVersionUser(String mail, String name, String nickname) {
 		this.mail = mail;
 		this.name = name;
 		this.nickname = nickname;

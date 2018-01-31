@@ -15,7 +15,7 @@ public class ProxyExample {
 		java.lang.reflect.Proxy proxy = (Proxy)newObj;
 		//Proxy has same interface as Subject
 		SubjectShareMoments shareMoments = (SubjectShareMoments)proxy;
-		
+
 		shareMoments.share("Hello, Patterns");
 	}
 }
